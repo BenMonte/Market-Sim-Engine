@@ -5,7 +5,7 @@ performance metrics (win rate, expectancy, profit factor, max drawdown, and
 more), and generates structured JSON and Markdown reports.
 
 An optional LLM integration can produce a short narrative summary of the
-computed metrics. The LLM does not compute or alter any numbers — all analytics
+computed metrics. The LLM doesn't compute or alter any numbers, all analytics
 are performed in Java.
 
 ## Features
@@ -48,10 +48,10 @@ Built with **Maven**. Requires **Java 17+**.
 
 ## Prerequisites
 
-- Java 17 or later
+- Java 17 or newer
 - Maven 3.8+
 - An `.xlsx` trade journal (see [Input Format](#input-format))
-- *(Optional)* `OPENAI_API_KEY` environment variable for LLM narrative
+- *(Optional)* `OPENAI_API_KEY` environment variable for narrative from LLM
 
 ## Build and Test
 
